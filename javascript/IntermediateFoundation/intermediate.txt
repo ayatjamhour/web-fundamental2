@@ -1,0 +1,94 @@
+//sigma
+function sigma(num){
+var sig=0;
+for(var i=0; i<=num;i++){
+sig+=i;
+}
+return sig;
+}
+console.log(sigma(5));
+//factorial
+function factorial(num){
+var f=1;
+for(var i=1; i<=num;i++){
+f=f*i;
+}
+return f;
+}
+console.log(factorial(5));
+//Fibonacci
+const number = parseInt(prompt( "Enter a  number:"));
+var f0 = 0, f1 = 1, fn;
+
+console.log("Fibonacci :");
+console.log(f0); 
+console.log(f1); 
+
+fn = f0 + f1;
+
+while (fn <= number) {
+    console.log(fn);
+
+    f0 = f1;
+    f1 = fn;
+    fn = f0 + f1;
+}
+//Array: Second-to-Last
+function seconed(arr){
+if (arr.length < 2){
+return null
+
+}
+else {
+return arr[arr.length-2]
+}
+}
+var x=seconed([1]);
+console.log(x);
+//Array: Nth-to-Last
+function seconed(arr,num){
+if (arr.length-num < 0){
+return null
+}
+else {
+return arr[arr.length-num]
+}
+}
+var x=seconed([5,2,3,6,4,9,7],3);
+console.log(x);
+
+//Array: Second-Largest
+function secondlargest(arr) {
+
+  var max1 = arr[0];
+  var max2 = 0;
+  for(var i=0; i<arr.length; i++) {
+  if (arr.length < 2){
+return null
+}
+   else if(arr[i] > max1) {
+      max2 = max1;
+      max1 = arr[i];
+    }
+    else if(arr[i] > max2 && arr[i] !== max1) {
+      max2 = arr[i];
+    }
+  }
+  return max2;
+}
+console.log(secondlargest([42,1,4,3.14,7]));
+
+//Double Trouble
+ function Doubltrouble(arr){
+        var temp=[];
+        for(var i=0;i<arr.length;i++){
+        temp.push(arr[i]);
+        }
+         for(var i=0,j=0;i<temp.length;i++,j=j+2){
+          arr[j]=temp[i];
+          arr[j+1]=temp[i];
+ 
+         }
+         return arr;
+     }
+     console.log(Doubltrouble([4,"Ulysses", 42, false]));

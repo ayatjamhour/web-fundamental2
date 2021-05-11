@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+
+#main-content{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(94, 86, 102);
+}
+#main-content .left{
+    margin:70px;
+    width: 500px;
+}
+#main-content .left h1{
+    margin-bottom:50px;
+}
+#main-content .left ul li {
+    margin: 10px;
+}
+#main-content .left ul li button{
+    width: 200px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+#main-content .right{
+    margin-left:200px;
+    margin-top: 70px;
+}
+#main-content h2{
+    margin-bottom: 50px;
+}
+#main-content img{
+    margin: 50px;
+}

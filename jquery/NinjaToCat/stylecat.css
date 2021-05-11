@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/*.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}*/
+.main-content img{
+    margin-left: 200px;
+    padding: 5px;
+    width: 300px;
+    height: 120px;
+}

@@ -1,0 +1,12 @@
+array algo-1
+var testarray=[6,3,5,1,2,4];
+var sum=0;
+for(var i=0; i<=testarray.length ; i++){
+    sum = sum + testarray[i];
+    console.log("Num" + " " + testarray[i] + " ," + "sum" + " "+ sum);
+}
+array algo-2
+for (var j = 0; j < testarray.length; j++) {
+    testarray[j] = testarray[j] * j;
+}
+console.log(testarray);

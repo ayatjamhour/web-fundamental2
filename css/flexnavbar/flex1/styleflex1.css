@@ -1,0 +1,13 @@
+.box {
+    background-color: rgb(43, 43, 189);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .center {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+}

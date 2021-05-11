@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#main-content{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    margin-left: 90px;
+}
+#main-content img{
+    margin-top:10px ;
+    margin-right: 10px;
+
+}
+ button {
+    margin-left: 35px;
+    width: 120px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    background-color: #ff0606d8;
+    border-radius: 10px;
+}
+    
